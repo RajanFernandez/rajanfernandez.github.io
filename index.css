@@ -1,0 +1,70 @@
+
+body {
+  color: #1A1A1A;
+  font-family: "Helvetica Neue";
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header-title-container {
+  display: block;
+  padding-top: 8vw;
+  padding-bottom: 2vw;
+}
+
+header-title {
+  font-size: 10vw;
+}
+
+@media (max-width: 600px) {
+  header-title {
+    font-size: 16vw;
+  }
+}
+
+profile-links-container {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+profile-links-container a {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+profile-links-container img {
+  height: 40px;
+}
+
+app-icons-container {
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+app-icons-container a {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width: 600px) {
+  app-icons-container a {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+app-icons-container img {
+  max-height: 150px;
+}
+
+footer p {
+  color: #CCCCCC;
+  font-weight: 50;
+}
